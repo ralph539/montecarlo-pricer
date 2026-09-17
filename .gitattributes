@@ -1,0 +1,3 @@
+*.ipynb linguist-documentation
+results/** linguist-generated
+scenarios/**/market.txt linguist-generated
