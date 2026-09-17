@@ -1,0 +1,7 @@
+{
+  "option":     { "type": "basket", "strike": 100.0, "maturity": 1.0, "fixingDates": 1, "weights": [0.5, 0.3, 0.2] },
+  "model":      { "size": 3, "spot": [100.0, 100.0, 100.0], "volatility": [0.20, 0.25, 0.30], "correlation": 0.3, "rate": 0.03 },
+  "monteCarlo": { "samples": 50000, "fdStep": 0.01 },
+  "hedging":    { "rebalancingDates": 252 },
+  "market":     { "drift": [0.05, 0.02, 0.08], "seed": 23 }
+}

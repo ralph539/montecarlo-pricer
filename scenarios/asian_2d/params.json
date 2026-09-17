@@ -1,0 +1,7 @@
+{
+  "option":     { "type": "asian", "strike": 100.0, "maturity": 1.0, "fixingDates": 12, "weights": [0.6, 0.4] },
+  "model":      { "size": 2, "spot": [100.0], "volatility": [0.2], "correlation": 0.5, "rate": 0.02 },
+  "monteCarlo": { "samples": 50000, "fdStep": 0.01 },
+  "hedging":    { "rebalancingDates": 252 },
+  "market":     { "drift": [0.04], "seed": 37 }
+}

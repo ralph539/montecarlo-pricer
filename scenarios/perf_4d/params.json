@@ -1,0 +1,7 @@
+{
+  "option":     { "type": "performance", "maturity": 2.0, "fixingDates": 12, "weights": [0.25] },
+  "model":      { "size": 4, "spot": [100.0], "volatility": [0.2], "correlation": 0.4, "rate": 0.03 },
+  "monteCarlo": { "samples": 50000, "fdStep": 0.01 },
+  "hedging":    { "rebalancingDates": 120 },
+  "market":     { "drift": [0.05], "seed": 41 }
+}

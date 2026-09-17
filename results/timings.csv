@@ -1,0 +1,6 @@
+scenario,price_seconds,hedge_seconds
+asian_2d,0.08,11.09
+basket_10d,0.05,12.62
+basket_3d,0.02,3.55
+call_1d,0.01,1.47
+perf_4d,0.17,11.88
