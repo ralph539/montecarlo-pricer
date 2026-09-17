@@ -1,4 +1,4 @@
-# Monte Carlo Hedging
+# Monte Carlo Pricer
 
 Monte Carlo pricer and delta-hedging engine for path-dependent options on correlated shares, in C++17.
 
